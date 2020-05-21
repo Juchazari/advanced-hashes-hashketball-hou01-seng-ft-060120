@@ -132,6 +132,7 @@ def num_points_scored(player_name)
     team_data.each do |attribute, data|
       data.each do |data_item|
         player_name = data_item[:player_name]
+        binding.pry
       end
     end
   end
