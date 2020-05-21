@@ -133,7 +133,8 @@ def num_points_scored(player_name)
       if attribute == :players
         data.each do |data_item|
           if data_item[:player_name] == player_name
-            binding.pry
+            points_scored = data_item[:points]
+            return 
           end
         end
       end
